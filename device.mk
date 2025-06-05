@@ -93,3 +93,4 @@ PRODUCT_PACKAGES += \
 
 # Inherit device specific vendor makefiles
 $(call inherit-product, vendor/nokia/NB1/NB1-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
